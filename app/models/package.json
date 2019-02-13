@@ -1,0 +1,11 @@
+{
+    "name": "node-api",
+    "main": "server.js",
+    "dependencies": {
+        "ajv": "^6.5.2",
+        "body-parser": "^1.0.2",
+        "express": "~4.0.0",
+        "mongodb": "^2.2.36",
+        "mongoose": "^5.2.6"
+    }
+}
