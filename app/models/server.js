@@ -7,7 +7,7 @@ var Bear     = require('/Users/tbouline/learning/API_REST/app/models/bear');
 var mongoose   = require('mongoose');
 const MongoClient = require('mongodb').MongoClient;
 
-const MONGO_URL = 'mongodb://test:amande1@ds237848.mlab.com:37848/bear';
+const MONGO_URL = 'test';
 
 MongoClient.connect(MONGO_URL, (err, db) => {  
   if (err) {
@@ -30,7 +30,7 @@ MongoClient.connect(MONGO_URL, (err, db) => {
     }
   )
 });
-// mongoose.connect('mongodb://tbouline:CRIMEbyDESIGN@9@ds237848.mlab.com:37848/bear',  { useNewUrlParser: true }); // connect to our database 
+// mongoose.connect('mongodb://test.mlab.com:37848/bear',  { useNewUrlParser: true }); // connect to our database 
 
 // configure app to use bodyParser()
 // this will let us get the data from a POST
